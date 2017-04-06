@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Medilove</title>
+    <link rel="icon" href="img/medilove.ico">
+    <meta name="description" content="Hahahahhah">
+    <meta name="keywords" content="30 mins ginawa hahahhah">
+    
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Candal">
+    <link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60" style="overflow-x:hidden">
+  	<!--banner-->
+	<section id="banner" class="banner">
+		<div class="bg-color">
+			<nav class="navbar navbar-default navbar-fixed-top">
+			  <div class="container">
+			  	<div class="col-md-12">
+				    <div class="navbar-header">
+				      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+				      <a class="navbar-brand" href="#"><img src="img/logo.png" class="img-responsive" style="width: 140px; margin-top: -16px;"></a>
+				    </div>
+				    <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+				      <ul class="nav navbar-nav">
+				        <li class="active"><a href="#banner"><i class="glyphicon glyphicon-lock"></i> Login</a></li>
+				        <li class=""><a href="#service"><i class="glyphicon glyphicon-heart-empty"></i> Services</a></li>
+				        <li class=""><a href="#dev-team"><i class="glyphicon glyphicon-earphone"></i> Contact Us</a></li>
+				        <li class=""><a href="#download_apk"><i class="glyphicon glyphicon-download-alt"></i> Download APK</a></li>
+				      </ul>
+				    </div>
+				</div>
+			  </div>
+			</nav>
+			<div class="container">
+				<div class="row">
+					<div class="banner-info">
+						<div class="banner-logo text-center">
+							<img src="img/logo.png" class="img-responsive">
+						</div>
+						<div>
+							<div>
+								<div>
+									<div class="contact-info">
+										<!--div class="alert alert-danger">
+											<a href="#" class="close" data-dismiss="alert" aria-label="close">&times</a>
+											<strong>asd!</strong> asdasd..
+										</div-->
+										<div class="space"></div>
+										<form name="login_form" action="index.php" method="post">
+											<div class="container" style="width: 20%; text-align: center">
+												<span id="message"></span>
+												<br>
+												<input type="text" name="txt_username" id="txt_username" class="form-control br-radius-zero" placeholder="Username" required>
+												<div class="validation"></div>
+											</div>
+											<br>
+											<div class="container" style="width: 20%; text-align: center">
+												<input type="password" class="form-control br-radius-zero" name="txt_pass" id="txt_pass" placeholder="Password" required>
+												<div class="validation"></div>
+											</div>
+											<h6 class="cnt-ttl" style="color: white; text-align: center"><a href="forgot_password.php" target="_blank" style="color: cyan">Forgot Password?</a></h6>
+											<br>
+											<div class="container" style="text-align: center">
+												<input type="submit" class="btn btn-form" id="btn_login" name="btn_login" value="Login">
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="overlay-detail text-center">
+			               <a href="#service"><i class="fa fa-angle-down"></i></a>
+			             </div>		
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--/ banner-->
+	<!--service-->
+	<section id="service" class="section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-4">
+					<h2 class="ser-title">Our Service</h2>
+					<hr class="botm-line">
+					<p>Our mission is to provide a health care locator which provides support services throughout the community both private and public sectors with an organized and systematized environment.</p>
+				</div>
+				<div class="col-md-4 col-sm-4">
+					<div class="service-info">
+						<div class="icon">
+							<i class="fa fa-stethoscope"></i>
+						</div>
+						<div class="icon-info">
+							<h4>24 Hour Support</h4>
+							<p>NATIONAL EMERGENCY HOTLINE:
+							911</p>
+						</div>
+					</div>
+					<div class="service-info">
+						<div class="icon">
+							<i class="fa fa-ambulance"></i>
+						</div>
+						<div class="icon-info">
+							<h4>Emergency Services</h4>
+							<p>NATIONAL DISASTER AND RISK REDUCTION AND MANAGEMENT COUNCIL (NDRRMC) HOTLINES:
+
+							Trunklines: 911-5061 to 65
+
+							Operations Center: (02)911-1406, (02)912-2665, (02)912-5668, (02) 911-1873</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4">
+					<div class="service-info">
+						<div class="icon">
+							<i class="fa fa-user-md"></i>
+						</div>
+						<div class="icon-info">
+							<h4>Medical Counseling</h4>
+							<p>Philippine General Hospital
+
+							Ambulance: 523 5350.</p>
+						</div>
+					</div>
+					<div class="service-info">
+						<div class="icon">
+							<i class="fa fa-medkit"></i>
+						</div>
+						<div class="icon-info">
+							<h4>Premium Healthcare</h4>
+							<p>Asian Hospital and Medical Center
+
+							For emergencies, call (632) 876-5739 to 5741.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--/ service-->
+	<!--cta-->
+	<section id="cta-1" class="section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="schedule-tab">
+    			<div class="col-md-4 col-sm-4 bor-left">
+    				<div class="mt-boxy-color"></div>
+	    			<div class="medi-info">
+		    			<h3>Emergency Case</h3>
+		    			<h3>Red Cross</h3>
+						<p>Hotline: 143, (02) 527-0000, (02) 527-8385 to 95
+
+						Disaster Management Office: 134 (Staff), 132 (Manager), 133 (Radio Room)
+
+						Telefax: 527-0864</p>
+						<a href="#" class="medi-info-btn">READ MORE</a>		    	
+					</div>
+    			</div>
+				<div class="col-md-4 col-sm-4">
+					<div class="medi-info">
+		    			<h3>Emergency Case</h3>
+		    			<h3>Philippine National Police (PNP) hotline patrol</h3>
+						<p>Hotline: 117
+
+						722-0650
+
+						Text hotline: 0917-847-5757</p>
+						<a href="#" class="medi-info-btn">READ MORE</a>	
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4 mt-boxy-3">
+					<div class="mt-boxy-color"></div>
+					<div class="time-info">
+			    		<h3>Emergency Case</h3>
+		    			<h3>Philippine Coast Guard</h3>
+						<p>Trunkline: (02) 527-8481 to 89
+
+						Action center: (02) 527-3877
+
+						0917-PCG-DOTC 0917-724-3682 (Globe)
+
+						0918-967-4697</p>
+						<a href="#" class="medi-info-btn">READ MORE</a>	
+			    		
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--cta-->
+	<!--about-->
+	<section id="about" class="section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-4 col-xs-12">
+			        <div class="section-title">
+			          <h2 class="head-title lg-line">THE MEDILOVE  <br>ULTIMATE DREAM</h2>
+			          <hr class="botm-line">
+			          <p class="sec-para">Aims to create and design a system where we can provide reliable information when locating health centers.</p>
+			        </div>
+			    </div>
+			    <div class="col-md-9 col-sm-8 col-xs-12">
+			       <div style="visibility: visible;" class="col-sm-9 more-features-box">
+			          <div class="more-features-box-text">
+			            <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
+			            <div class="more-features-box-text-description">
+				            <h3>It's something important you want to know.</h3>
+				            <p>Life doesn't require that we be the BEST, only that we try our BEST</p>
+				        </div>
+			          </div>
+			          <div class="more-features-box-text">
+			            <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
+			            <div class="more-features-box-text-description">
+				            <h3>It's something important you want to know.</h3>
+				            <p>"For God himself gives wisdom; out of his mouth there are knowledge and discernment." - Proverbs 2:6</p>
+				        </div>
+                        </div>
+			        </div>
+			    </div>
+			</div>
+		</div>
+	</section>
+	<!--/ about-->
+    <!--blog-->
+    <section id="blog" class="col-md-12 col-sm-12 col-xs-12 row" style="margin:0; padding:0">
+    	<div class="container" style="padding:0">
+            <div class="section-padding col-md-3 col-sm-4 col-xs-12">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-pdding col-md-3 col-sm-4 col-xs-12">
+                            <div class="section-title">
+                              <h2 class="head-title lg-line">CHECK US OUT  <br>MEDILOVE BLOG</h2>
+                              <hr class="botm-line">
+                              <p class="sec-para">Helps to give you more insight on what we do.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-padding col-md-9 col-sm-8 col-xs-12 parallax" style="background-image:url(img/blog.png)">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9 col-sm-8 col-xs-12" style="padding:0">
+                           <div style="visibility: visible;" class="col-sm-9 more-features-box">
+                              <div class="white col-md-offset-2 col-lg-offset-2 col-sm-offset-2" 
+                              	   style="border-bottom:solid 2px; padding-bottom:5px; margin-top:-50px;">
+                                    <h3 class="white" style="text-align:center">Send us your thoughts</h3>
+                              </div><br/>
+                              <div class="button-container section-padding col-md-offset-4 col-lg-offset-4 col-sm-offset-4">
+                				<button class="btn btn-lg" style="background-color:transparent;"><span>BLOG</span></button>
+                			</div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	<!--/ blog-->
+	<!--dev team-->
+	<section id="dev-team" class="section-padding" style="padding-top:500px;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="ser-title">MEET OUR MEMBERS!</h2>
+					<hr class="botm-line">
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-6">
+			      <div class="thumbnail"> 
+			      	<img src="img/ron.jpg" alt="..." class="team-img">
+			        <div class="caption">
+			          <h3>Gerone Cruz</h3>
+			          <p>Team Lead / Android Lead Developer</p>
+			          <ul class="list-inline">
+			            <li><a href="https://www.facebook.com/RonCruz28"><i class="fa fa-facebook"></i></a></li>
+			          </ul>
+			        </div>
+			      </div>
+			    </div>
+			    <div class="col-md-4 col-sm-4 col-xs-6">
+			      <div class="thumbnail"> 
+			      	<img src="img/gio.jpg" alt="..." class="team-img">
+			        <div class="caption">
+			          <h3>Gionel John Gungon</h3>
+			          <p>Web Lead Developer</p>
+			          <ul class="list-inline">
+			            <li><a href="https://www.facebook.com/gungongionel"><i class="fa fa-facebook"></i></a></li>
+			          </ul>
+			        </div>
+			      </div>
+			    </div>
+			    <div class="col-md-4 col-sm-4 col-xs-6">
+			      <div class="thumbnail"> 
+			      	<img src="img/april.jpg" alt="..." class="team-img">
+			        <div class="caption">
+			          <h3>April Rose Saludario</h3>
+			          <p>Data Analyst</p>
+			          <ul class="list-inline">
+			            <li><a href="https://www.facebook.com/argon.arsenic2"><i class="fa fa-facebook"></i></a></li>
+			          </ul>
+			        </div>
+			      </div>
+			    </div>
+			    <div class="col-md-4 col-sm-4 col-xs-6">
+			      <div class="thumbnail"> 
+			      	<img src="img/kim.jpg" alt="..." class="team-img">
+			        <div class="caption">
+			          <h3>Kim Philip Quiñones</h3>
+			          <p>Web Assistant Developer</p>
+			          <ul class="list-inline">
+			            <li><a href="https://www.facebook.com/pvqkeem125"><i class="fa fa-facebook"></i></a></li>
+			          </ul>
+			        </div>
+			      </div>
+			    </div>
+			    <div class="col-md-4 col-sm-4 col-xs-6">
+			      <div class="thumbnail"> 
+			      	<img src="img/karl.jpg" alt="..." class="team-img">
+			        <div class="caption">
+			          <h3>Karl Relovasa</h3>
+			          <p>Web Assistant Developer</p>
+			          <ul class="list-inline">
+			            <li><a href="https://www.facebook.com/kakarlka"><i class="fa fa-facebook"></i></a></li>
+			          </ul>
+			        </div>
+			      </div>
+			    </div>
+			    <div class="col-md-4 col-sm-4 col-xs-6">
+			      <div class="thumbnail"> 
+			      	<img src="img/thea.jpg" alt="..." class="team-img">
+			        <div class="caption">
+			          <h3>Thea Angela Doniña</h3>
+			          <p>Data Analyst</p>
+			          <ul class="list-inline">
+			            <li><a href="https://www.facebook.com/YuriThei"><i class="fa fa-facebook"></i></a></li>
+			          </ul>
+			        </div>
+			      </div>
+			    </div>
+			    <div class="col-md-4 col-sm-4 col-xs-6">
+			      <div class="thumbnail"> 
+			      	<img src="img/sirnoel.jpg" alt="..." class="team-img">
+			        <div class="caption">
+			          <h3>Sir Noel Antonio</h3>
+			          <p>Web Dev. Adviser</p>
+			          <ul class="list-inline">
+			            <li><a href="https://www.facebook.com/mr.noel.antonio"><i class="fa fa-facebook"></i></a></li>
+			          </ul>
+			        </div>
+			      </div>
+			    </div>
+			</div>
+		</div>
+	</section>
+	<!--/ dev team-->
+	<!--cta 2-->
+	<section id="cta-2" class="section-padding">
+		<div class="container">
+			<div class=" row">
+				<div class="col-md-2"></div>
+	            <div class="text-right-md col-md-4 col-sm-4">
+	              <h2 class="section-title white lg-line">« A few words<br> about us »</h2>
+	            </div>
+	            <div class="col-md-4 col-sm-5">
+	              	Whenever the Art of Medicine IS LOVED,
+					there is also a LOVE OF HUMANITY.
+	              <p class="text-right text-primary"><i>— Medilove Healthcare</i></p>
+	            </div>
+	            <div class="col-md-2"></div>
+	        </div>
+		</div>
+	</section>
+	<!--cta-->
+	<!--contact-->
+	<section id="download_apk" class="section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="ser-title">Download Our Mobile App: Hospital Locator!</h2>
+					<hr class="botm-line">
+				</div>
+				<div class="col-md-4 col-xs-6">
+					<div class="thumbnail"> 
+						<img src="img/android1.jpg" alt="..." class="team-img">
+						<div class="caption">
+							<h3>Medilove Mobile App</h3>
+							<p>Loading Screen.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-6">
+					<div class="thumbnail"> 
+						<img src="img/android2.jpg" alt="..." class="team-img">
+						<div class="caption">
+							<h3>Locate Hospital</h3>
+							<p>Easy One Click and Locate.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-6">
+					<div class="thumbnail"> 
+						<img src="img/android3.jpg" alt="..." class="team-img">
+						<div class="caption">
+							<h3>Nearby Hospital</h3>
+							<p>Locate Hospital Near You!</p>
+						</div>
+					</div>
+				</div>
+				<h3 class="text-center">Click to download APK <a href="download.php" class="glyphicon glyphicon-download-alt"></a></h3>
+			</div>
+		</div>
+	</section>
+	<!--/ contact-->
+	<!--footer-->
+	<footer id="footer">
+		<div class="top-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-4 marb20">
+							<div class="ftr-tle">
+								<h4 class="white no-padding">About Us</h4>
+							</div>
+							<div class="info-sec">
+								<p>BSIT students from Polytechnic University of the Philippines, San Pedro Campus.</p>
+							</div>
+					</div>
+					<div class="col-md-4 col-sm-4 marb20">
+						<div class="ftr-tle">
+							<h4 class="white no-padding">Group 3</h4>
+						</div>
+						<div class="info-sec">
+							<ul class="quick-info">
+								<li><i class="fa fa-circle"></i>Ron</li>
+								<li><i class="fa fa-circle"></i>Gio</li>
+								<li><i class="fa fa-circle"></i>April</li>
+								<li><i class="fa fa-circle"></i>Kim</li>
+								<li><i class="fa fa-circle"></i>Karl</li>
+								<li><i class="fa fa-circle"></i>Thea</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4 marb20">
+						<div class="ftr-tle">
+							<h4 class="white no-padding">Follow us</h4>
+						</div>
+						<div class="info-sec">
+							<ul class="social-icon">
+								<li class="bglight-blue"><i class="fa fa-facebook"></i></li>
+								<li class="bgred"><i class="fa fa-google-plus"></i></li>
+								<li class="bgdark-blue"><i class="fa fa-linkedin"></i></li>
+								<li class="bglight-blue"><i class="fa fa-twitter"></i></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-line">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<div class="credits">
+                            <i class="glyphicon glyphicon-globe"></i> All rights reserved 2017
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--/ footer-->
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    
+    
+  </body>
+</html>
